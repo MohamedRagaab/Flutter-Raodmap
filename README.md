@@ -75,8 +75,37 @@
    * Perefrence
   
 * State Managment
+   * setState
+   * Provider
+   * Redux
+   * BLoC
+   * MobX
+  
 * Quiality Assurance
+   * Firebase
+      * Crashlytics
+      * App distribution
+      * Analytics
+   * Google Play beta tests
+   * TestFlight
+   * App center
+   
 * Version Control
-* Firebase
-* Native Integration
+   * Git
+   * GitHub
 
+* Firebase
+   * Firebase Auth
+   * Firebase Database
+   * Firebase Storage
+   * Firebase Messaging
+* Native Integration
+   * Android Studio
+   * Java/Kotlin
+   * App Signing
+   * Google Play Store
+   * Xcode
+   * Swift/Objective-C
+   * Apple Certification
+   * AppStore
+  
