@@ -5,7 +5,12 @@
 * Programming
   * Dart 
 * IDE
+  * Android Studio
+  * VScode
 * UI
+  * Widgets
+     * Stateless Widet
+  * Assets
 * Static User Interface
 * Dynamic User Interface
 * Animation
