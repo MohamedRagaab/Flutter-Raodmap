@@ -112,7 +112,7 @@
 ## State Managment
 ### Provider
 #### Advantages
-      * Using provider help you when you need to send a state from widget to another instead of using constrctors.
+      * Using provider help you when you need to send a state from widget to another instead of using constructors.
       * and also increase the app performance because if you nead to change a state value (variable) you need to change to
         statefull widget and use setState which will call the build method which will rebuild the entire screen ui to just
         change the state value and this is a bad performance, but we can use Provider to solve this issue.
