@@ -127,10 +127,14 @@
     A stateless widget can only be drawn once when the Widget is loaded/built.
   * StateFull Widget
     The Stateful widget is mutable that's why it can be drawn multiple times within its lifetime. A stateful widget has the following lifecycle stages:
-    
+   
     <div align='center'>
 <img height="600px" src="https://user-images.githubusercontent.com/38363762/116098098-1234ca00-a6ab-11eb-837d-466775527e9d.PNG">
 <hr/>
 </div>
-
+   
+   There are multiple methods that recall the build method:
+    * initState() => This is the first method called when a stateful widget is created after the class constructor.
+    * didUpdateWidet() => If the parent widget change configuration and has to rebuild this widget. But it's being rebuilt with the same runtimeType, then didUpdateWidget()                               method is called. The framework updates the widget property of this state object to refer to the new widget and then call this method with the previous                           widget as an argument.
+    * setState() => This method is called from the framework and the developer. We can change the internal state of a State object and make the change in a function that you                         pass to setState().
     
