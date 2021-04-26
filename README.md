@@ -41,9 +41,9 @@
    * GridView
    * ExpansionTitle
    
-* Lifecycle
+* [Lifecycle](#Lifecycle)
    * App Lifecycle 
-   * [Widget Lifecycle](#Lifecycle)
+   * [Widget Lifecycle](#Widget_Lifecycle)
 * Animation
    * Animated Widget
    * Animated Builder
