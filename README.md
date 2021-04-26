@@ -142,7 +142,9 @@
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/116162461-20f49e80-a6f6-11eb-8991-ef6a877f450b.png">
 <hr/>
 </div>
+
    * Creat your provider class which contain the states(Variables) and the methods ou will use and mixing it with ChangeNotifier
+  
 <div align='center'>
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/116162662-8c3e7080-a6f6-11eb-9140-7079eb488722.png">
 <hr/>
