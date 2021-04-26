@@ -143,7 +143,7 @@
     * A stateful widget has the following lifecycle stages:
     
     <div align='center'>
-<img height="300px" src="https://user-images.githubusercontent.com/38363762/116098098-1234ca00-a6ab-11eb-837d-466775527e9d.PNG">
+<img height="600px" src="https://user-images.githubusercontent.com/38363762/116098098-1234ca00-a6ab-11eb-837d-466775527e9d.PNG">
 <hr/>
 </div>
    
