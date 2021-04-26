@@ -124,12 +124,12 @@
      Go to https://pub.dev/packages/provider/install and install the package
    * Get the dependcy
 <div align='center'>
-<img height="250px" src="https://user-images.githubusercontent.com/38363762/116162007-29000e80-a6f5-11eb-9d80-0dfdaf509e7d.png">
+<img height="150px" src="https://user-images.githubusercontent.com/38363762/116162007-29000e80-a6f5-11eb-9d80-0dfdaf509e7d.png">
 <hr/>
 </div>
    * Import the Package in the right file
 <div align='center'>
-<img height="250px" src="https://user-images.githubusercontent.com/38363762/116162295-c6f3d900-a6f5-11eb-9c51-49abf8066029.png">
+<img height="150px" src="https://user-images.githubusercontent.com/38363762/116162295-c6f3d900-a6f5-11eb-9c51-49abf8066029.png">
 <hr/>
 </div>
    * Wrap the root widget with ChangeNotifierProvider 
