@@ -41,7 +41,9 @@
    * GridView
    * ExpansionTitle
    
-
+* Lifecycle
+   * App Lifecycle 
+   * [Widget Lifecycle](#Lifecycle)
 * Animation
    * Animated Widget
    * Animated Builder
@@ -119,3 +121,16 @@
 ##### USing Provider
    * Installing Provider package
      Go to  
+## Lifecycle
+### Widget LifeCycle
+  * Stateless Widget
+    A stateless widget can only be drawn once when the Widget is loaded/built.
+  * StateFull Widget
+    The Stateful widget is mutable that's why it can be drawn multiple times within its lifetime. A stateful widget has the following lifecycle stages:
+    
+    <div align='center'>
+<img height="600px" src="https://user-images.githubusercontent.com/38363762/116098098-1234ca00-a6ab-11eb-837d-466775527e9d.PNG">
+<hr/>
+</div>
+
+    
