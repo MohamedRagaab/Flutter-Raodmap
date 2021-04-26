@@ -144,7 +144,7 @@
 </div>
    * import your class provider in the file which you want to use the methods and variables you created 
 <div align='center'>
-<img height="250px" src="https://user-images.githubusercontent.com/38363762/116162882-f35c2500-a6f6-11eb-8693-af733497f681.png">
+<img height="250px" src="https://user-images.githubusercontent.com/38363762/116163357-e7bd2e00-a6f7-11eb-925c-832f36ccc7ce.png">
 <hr/>
 </div>
    * Get your state in the right place
