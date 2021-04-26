@@ -123,12 +123,33 @@
    * Installing Provider package 
      Go to https://pub.dev/packages/provider/install and install the package
    * Get the dependcy
-
 <div align='center'>
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/116162007-29000e80-a6f5-11eb-9d80-0dfdaf509e7d.png">
 <hr/>
 </div>
-     
+   * Import the Package in the right file
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/116162295-c6f3d900-a6f5-11eb-9c51-49abf8066029.png">
+<hr/>
+</div>
+   * Wrap the root widget with ChangeNotifierProvider 
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/116162461-20f49e80-a6f6-11eb-8991-ef6a877f450b.png">
+<hr/>
+</div>
+   * Creat your provider class which contain the states(Variables) and the methods ou will use and mixing it with ChangeNotifier
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/116162662-8c3e7080-a6f6-11eb-9140-7079eb488722.png">
+<hr/>
+</div>
+   * import your class provider in the file which you want to use the methods and variables you created 
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/116162882-f35c2500-a6f6-11eb-8693-af733497f681.png">
+<hr/>
+</div>
+   * 
+
+
 ## Lifecycle
 ### Widget LifeCycle
   * Stateless Widget
