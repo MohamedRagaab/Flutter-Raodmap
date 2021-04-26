@@ -139,5 +139,6 @@
 <hr/>
 </div>
    
-   
+  * dispose() => This is called when the State object is removed permanently.
+    
     
