@@ -119,8 +119,16 @@
         statefull widget and use setState which will call the build method which will rebuild the entire screen ui to just
         change the state value and this is a bad performance, but we can use Provider to solve this issue.
 ##### USing Provider
-   * Installing Provider package
-     Go to  
+   let we need to do a simple app which counts number starting from zero with floating action button, here are some steps we should follow:
+   * Installing Provider package 
+     Go to https://pub.dev/packages/provider/install and install the package
+   * Get the dependcy
+
+<div align='center'>
+<img height="600px" src="https://user-images.githubusercontent.com/38363762/116162007-29000e80-a6f5-11eb-9d80-0dfdaf509e7d.png">
+<hr/>
+</div>
+     
 ## Lifecycle
 ### Widget LifeCycle
   * Stateless Widget
