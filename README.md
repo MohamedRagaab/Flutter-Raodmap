@@ -177,7 +177,14 @@
 
 ## Async Programming
 ### Isolates and Event loops
-
+  If you are waiting until a task to complete for example, your app is downloading a video so it is not good to block the app until this   task finished but we can use a method from the fowllowing
+  * Synchronous 
+    It means that the compiler must wait until this part of the code finished.  
+  * Asnchronous
+    It means that the compiler must not wait until this part of the code finished but it is running in a different thread.  
+    * Isolate 
+      our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the         last idolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by           sending messages.
+      
 ## Lifecycle
 ### Widget LifeCycle
   * Stateless Widget
