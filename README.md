@@ -198,11 +198,11 @@
 </div>
 
 <div>
-   the output of the program is:    
-   flutter: main isolate
-   flutter: begin
-   flutter: end 
-   which means the compiler will not wait until the blockApp function completion but it will run the seconed line then returned to the function.
+   <br>the output of the program is:    
+   <br>flutter: main isolate
+   <br>flutter: begin
+   <br>flutter: end 
+   <br>which means the compiler will not wait until the blockApp function completion but it will run the seconed line then returned to the function.
 </div>
 
 ## Lifecycle
