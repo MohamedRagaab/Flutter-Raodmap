@@ -184,7 +184,20 @@
     It means that the compiler must not wait until this part of the code finished but it is running in a different thread.  
     * Isolate 
       our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the         last idolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by           sending messages.
-      
+      * Using Isolate
+        first we should import dart.isolate library and we can use isolate.spawn method which accept two parameters, first one is a function with a parameter which will take much time(this function must be in the top level and doesn't belong to any class or we can create a class and make the function static so we can access it without object) and seconed one is a message parameter.
+
+<div align='center'>
+<img height="600px" src="https://user-images.githubusercontent.com/38363762/117896140-2ccc8d00-b2c0-11eb-86cf-ab8533f52b85.png">
+<hr/>
+</div>
+
+<div align='center'>
+<img height="600px" src="https://user-images.githubusercontent.com/38363762/117896167-3d7d0300-b2c0-11eb-8f46-c8d4c98382c8.png">
+<hr/>
+</div>
+
+
 ## Lifecycle
 ### Widget LifeCycle
   * Stateless Widget
@@ -198,7 +211,7 @@
     * setState() => This method is called from the framework and the developer. We can change the internal state of a State object and make the change in a function that you                         pass to setState().
     * A stateful widget has the following lifecycle stages:
     
-    <div align='center'>
+<div align='center'>
 <img height="600px" src="https://user-images.githubusercontent.com/38363762/116098098-1234ca00-a6ab-11eb-837d-466775527e9d.PNG">
 <hr/>
 </div>
