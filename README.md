@@ -177,15 +177,16 @@
 
 ## Async Programming
 ### Isolates and Event loops
-  If you are waiting until a task to complete for example, your app is downloading a video so it is not good to block the app until this   task finished but we can use a method from the fowllowing
+  If you are waiting for a task to complete for example, your app is downloading a video so it is not good to block the app until this   task finished but we can use a method from the fowllowing
   * Synchronous 
     It means that the compiler must wait until this part of the code finished.  
   * Asnchronous
     It means that the compiler must not wait until this part of the code finished but it is running in a different thread.  
     * Isolate 
-     our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the last idolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by sending messages.
+     our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the last isolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by sending messages.
       * Using Isolate
-        first we should import dart.isolate library and we can use isolate.spawn method which accept two parameters, first one is a function with a parameter which will take much time(this function must be in the top level and doesn't belong to any class or we can create a class and make the function static so we can access it without object) and seconed one is a message parameter.
+        <br>first we should import dart.isolate library 
+        <br>and we can use isolate.spawn method which accept two parameters, first one is a function with a parameter which will take much time(this function must be in the top level and doesn't belong to any class or we can create a class and make the function static so we can access it without object) and seconed one is a message parameter.
 
 <div align='center'>
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/117896140-2ccc8d00-b2c0-11eb-86cf-ab8533f52b85.png">
