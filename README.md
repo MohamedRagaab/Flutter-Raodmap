@@ -218,14 +218,16 @@
 ## Lifecycle
 ### Widget LifeCycle
   * Stateless Widget
-    A stateless widget can only be drawn once when the Widget is loaded/built.
+    <br>A stateless widget can only be drawn once when the Widget is loaded/built.
   * StateFull Widget
-    The Stateful widget is mutable that's why it can be drawn multiple times within its lifetime.
+    <br>The Stateful widget is mutable that's why it can be drawn multiple times within its lifetime.
     
   * There are multiple methods that recall the build method:
     * initState() => This is the first method called when a stateful widget is created after the class constructor.
-    * didUpdateWidet() => If the parent widget change configuration and has to rebuild this widget. But it's being rebuilt with the same runtimeType, then didUpdateWidget()                               method is called. The framework updates the widget property of this state object to refer to the new widget and then call this method with the previous                           widget as an argument.
-    * setState() => This method is called from the framework and the developer. We can change the internal state of a State object and make the change in a function that you                         pass to setState().
+    * didUpdateWidet() 
+  <br>If the parent widget change configuration and has to rebuild this widget. But it's being rebuilt with the same runtimeType, then didUpdateWidget() method is called. The framework updates the widget property of this state object to refer to the new widget and then call this method with the previous widget as an argument.
+    * setState()
+  <br>This method is called from the framework and the developer. We can change the internal state of a State object and make the change in a function that you pass to setState().
     * A stateful widget has the following lifecycle stages:
     
 <div align='center'>
@@ -233,6 +235,7 @@
 <hr/>
 </div>
    
-  * dispose() => This is called when the State object is removed permanently.
+  * dispose() 
+<br>This is called when the State object is removed permanently.
     
     
