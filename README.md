@@ -121,6 +121,47 @@
    * Swift/Objective-C
    * Apple Certification
    * AppStore
+
+
+## Async Programming
+### Isolates and Event loops
+  If you are waiting for a task to complete for example, your app is downloading a video so it is not good to block the app until this   task finished but we can use a method from the fowllowing
+  * Synchronous 
+    It means that the compiler must wait until this part of the code finished.  
+  * Asnchronous
+    It means that the compiler must not wait until this part of the code finished but it is running in a different thread.  
+    * Isolate 
+     our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the last isolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by sending messages.
+      * Using Isolate
+        <br>first we should import dart.isolate library 
+        <br>and we can use isolate.spawn method which accept two parameters, first one is a function with a parameter which will take much time(this function must be in the top level and doesn't belong to any class or we can create a class and make the function static so we can access it without object) and seconed one is a message parameter.
+
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/117896140-2ccc8d00-b2c0-11eb-86cf-ab8533f52b85.png">
+<hr/>
+</div>
+
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/117896167-3d7d0300-b2c0-11eb-8f46-c8d4c98382c8.png">
+<hr/>
+</div>
+
+<div>
+   <br>The output of the program is:    
+   <br>flutter: main isolate
+   <br>flutter: begin
+   <br>flutter: end 
+   <br>which means the compiler will not wait until the blockApp function completion but it will run the seconed line then returned to the function.
+ <br>
+</div>
+<div>
+   <br>Note we can import foundation.dart library and replace the isolate.spawn method with compute and we will have the same results
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118033996-c13efa00-b369-11eb-93e4-2226771132b1.png">
+<hr/>
+</div>
+
  
 ## State Managment
 ### Provider
@@ -174,46 +215,6 @@
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/116163061-51890800-a6f7-11eb-8bac-c692d0acc600.png">
 <hr/>
 </div>
-
-## Async Programming
-### Isolates and Event loops
-  If you are waiting for a task to complete for example, your app is downloading a video so it is not good to block the app until this   task finished but we can use a method from the fowllowing
-  * Synchronous 
-    It means that the compiler must wait until this part of the code finished.  
-  * Asnchronous
-    It means that the compiler must not wait until this part of the code finished but it is running in a different thread.  
-    * Isolate 
-     our main program run in isolate space but we can create another isolate to run a part of the code or function inside it and the last isolate it is considerd as son of the father isolate (main isolate) and those isolates can communicate with each other by sending messages.
-      * Using Isolate
-        <br>first we should import dart.isolate library 
-        <br>and we can use isolate.spawn method which accept two parameters, first one is a function with a parameter which will take much time(this function must be in the top level and doesn't belong to any class or we can create a class and make the function static so we can access it without object) and seconed one is a message parameter.
-
-<div align='center'>
-<img height="300px" src="https://user-images.githubusercontent.com/38363762/117896140-2ccc8d00-b2c0-11eb-86cf-ab8533f52b85.png">
-<hr/>
-</div>
-
-<div align='center'>
-<img height="500px" src="https://user-images.githubusercontent.com/38363762/117896167-3d7d0300-b2c0-11eb-8f46-c8d4c98382c8.png">
-<hr/>
-</div>
-
-<div>
-   <br>the output of the program is:    
-   <br>flutter: main isolate
-   <br>flutter: begin
-   <br>flutter: end 
-   <br>which means the compiler will not wait until the blockApp function completion but it will run the seconed line then returned to the function.
- <br>
-</div>
-<div>
-   <br>Note we can import foundation.dart library and replace the isolate.spawn method with compute and we will have the same results
-</div>
-<div align='center'>
-<img height="500px" src="https://user-images.githubusercontent.com/38363762/118033996-c13efa00-b369-11eb-93e4-2226771132b1.png">
-<hr/>
-</div>
-
 
 ## Lifecycle
 ### Widget LifeCycle
