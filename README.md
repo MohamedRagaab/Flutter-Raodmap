@@ -43,7 +43,7 @@
 
 * Async Programming
    * [Isolates and Event loops](#Isolates-and-Event-loops)
-   * [Futures](#Future)
+   * [Futures](#Futures)
    * Streams
    * Async Await
    * Generators
@@ -162,7 +162,7 @@
 <hr/>
 </div>
 
-### Future
+### Futures
   * Future object
   <br>it is an async object that take a function as a prameter which will take much time to complete. this tell flutter to continue to the next lines in the program and after finishing it it return back to compile the Future function and we can create a Future object as following:
  
@@ -188,8 +188,17 @@
 </div>
  
    * Future Builder
-   <br>it is a async widget wich has two main parameters future and builder the first one takes the future function and the last one taks a function wich has two parameters context and snapShot 
- 
+   <br>it is a async widget wich has two main parameters future and builder the first one takes the future function and the last one taks a function wich has two parameters context and snapShot, this snapShot has a data of the future function which we can use it iside the builder.
+   <br>for example if we have a future function which takes much time to complete (for ex 2 sec) and return a data so we can use a future builder as the following:
+
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118054845-51d80300-b387-11eb-86fb-b797eaf55517.png">
+<hr/>
+</div>
+
+<br> note here we checked the connection state of the future function which has many states (done, waiting, active).
+
 ## State Managment
 ### Provider
 #### Advantages
