@@ -155,7 +155,7 @@
  <br>
 </div>
 <div>
-   <br>Note we can import foundation.dart library and replace the isolate.spawn method with compute and we will have the same results
+   <br>Note we can import foundation.dart library and replace the isolate.spawn method with compute and we will have the same results.
 </div>
 <div align='center'>
 <img height="500px" src="https://user-images.githubusercontent.com/38363762/118033996-c13efa00-b369-11eb-93e4-2226771132b1.png">
@@ -164,7 +164,7 @@
 
 ### Future
   * Future object
-  <br>is async object that take a function as a prameter which will take much time to complete. this tell flutter to continue to the next lines in the program and after finishing it it return back to compile the Future function and we can create a Future object as following:
+  <br>it is an async object that take a function as a prameter which will take much time to complete. this tell flutter to continue to the next lines in the program and after finishing it it return back to compile the Future function and we can create a Future object as following:
  
 </div>
 <div align='center'>
@@ -172,7 +172,20 @@
 <hr/>
 </div>
 
+<br>The output of this function is:
+
+<br>flutter: 2
+<br>flutter: 1
+
+<br>which means that the seconed line is done before the first line.
     
+  * If we use a return type function in future object for example integer function, we can use the return value by using **then** method as following:
+
+</div>
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/118046951-5c3fd000-b37a-11eb-96ed-164bfa45865b.png">
+<hr/>
+</div>
  
  
 ## State Managment
