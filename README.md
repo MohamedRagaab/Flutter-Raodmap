@@ -183,10 +183,12 @@
 
 </div>
 <div align='center'>
-<img height="300px" src="https://user-images.githubusercontent.com/38363762/118046951-5c3fd000-b37a-11eb-96ed-164bfa45865b.png">
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118046951-5c3fd000-b37a-11eb-96ed-164bfa45865b.png">
 <hr/>
 </div>
  
+   * Future Builder
+   <br>it is a async widget wich has two main parameters future and builder the first one takes the future function and the last one taks a function wich has two parameters context and snapShot 
  
 ## State Managment
 ### Provider
