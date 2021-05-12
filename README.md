@@ -204,7 +204,16 @@
    <br>flutter: begin
    <br>flutter: end 
    <br>which means the compiler will not wait until the blockApp function completion but it will run the seconed line then returned to the function.
+ <br>
 </div>
+<div>
+   <br>Note we can import foundation.dart library and replace the isolate.spawn method with compute and we will have the same results
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118033996-c13efa00-b369-11eb-93e4-2226771132b1.png">
+<hr/>
+</div>
+
 
 ## Lifecycle
 ### Widget LifeCycle
