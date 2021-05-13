@@ -206,8 +206,8 @@
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/118132654-378e3b80-b400-11eb-8123-bbfc833894cb.gif">
 <hr/>
 </div>
-  * There are two kind of Stream 
-    * Single Subscription Stream
+   * There are two kind of Stream 
+     * Single Subscription Stream
     
 </div>
 <div align='center'>
