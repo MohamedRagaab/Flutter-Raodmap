@@ -200,7 +200,7 @@
 <br> note here we checked the connection state of the future function which has many states (done, waiting, active).
 
 ### Streams 
-  * It is a sequence or flow of events. it is similar to Future but it doesn't return only once it returns many time as you want
+  * It is a sequence or flow of events. it is similar to Future but it returns many times as you want unlike the Future it returns only once, each Stream can has one listener or many listeners (Broadcast).
 </div>
 <div align='center'>
 <img height="300px" src="https://user-images.githubusercontent.com/38363762/118132654-378e3b80-b400-11eb-8123-bbfc833894cb.gif">
