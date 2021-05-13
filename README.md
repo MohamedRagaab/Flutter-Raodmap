@@ -241,7 +241,7 @@
  <br>flutter: event1 3
  <br>flutter: event2 6
 
-<br>We can create our stream using for loop and yield function, the last one is similar to return but it doesn't exit the function.
+<br>We can create our stream using for loop and yield function, the last one is similar to return but it doesn't exit the function and we have the same output result.
 
 </div>
 <div align='center'>
