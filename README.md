@@ -248,7 +248,16 @@
 <img height="500px" src="https://user-images.githubusercontent.com/38363762/118145651-1a606980-b40e-11eb-9d4f-4593a55f43fd.png">
 <hr/>
 </div>
-   
+ 
+
+<br>we can also use await for to listen to our stream instead of listen method.
+
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118147546-f9007d00-b40f-11eb-8192-b80cbe606ff3.png">
+<hr/>
+</div>
+ 
    
 ## State Managment
 ### Provider
