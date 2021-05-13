@@ -44,7 +44,7 @@
 * Async Programming
    * [Isolates and Event loops](#Isolates-and-Event-loops)
    * [Futures](#Futures)
-   * Streams
+   * [Streams](#Streams)
    * Async Await
    * Generators
    * URl Launcher
@@ -198,6 +198,14 @@
 </div>
 
 <br> note here we checked the connection state of the future function which has many states (done, waiting, active).
+
+### Streams 
+  * It is a sequence or flow of data 
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118132654-378e3b80-b400-11eb-8123-bbfc833894cb.gif">
+<hr/>
+</div>
 
 ## State Managment
 ### Provider
