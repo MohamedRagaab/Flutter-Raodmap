@@ -254,7 +254,7 @@
 
 </div>
 <div align='center'>
-<img height="500px" src="https://user-images.githubusercontent.com/38363762/118147546-f9007d00-b40f-11eb-8192-b80cbe606ff3.png">
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/118147546-f9007d00-b40f-11eb-8192-b80cbe606ff3.png">
 <hr/>
 </div>
  
