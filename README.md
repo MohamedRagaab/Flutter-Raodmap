@@ -200,12 +200,47 @@
 <br> note here we checked the connection state of the future function which has many states (done, waiting, active).
 
 ### Streams 
-  * It is a sequence or flow of data 
+  * It is a sequence or flow of events. it is similar to Future but it doesn't return only once it returns many time as you want
 </div>
 <div align='center'>
-<img height="500px" src="https://user-images.githubusercontent.com/38363762/118132654-378e3b80-b400-11eb-8123-bbfc833894cb.gif">
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/118132654-378e3b80-b400-11eb-8123-bbfc833894cb.gif">
 <hr/>
 </div>
+  * There are two kind of Stream 
+    * Single Subscription Stream
+    
+</div>
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/118142791-0109ee00-b40b-11eb-86a8-10b6ab3cdb23.png">
+<hr/>
+</div>
+
+  <br>The output of the program
+    <br>flutter: 0
+    <br>flutter: 1
+    <br>flutter: 2
+    <br>flutter: 3
+    <br>flutter: 4
+    <br>flutter: 5
+
+   * Broadcast Stream
+   
+</div>
+<div align='center'>
+<img height="300px" src="https://user-images.githubusercontent.com/38363762/118143038-357daa00-b40b-11eb-9cfc-b58bfb1d462b.png">
+<hr/>
+</div>
+   
+ <br>The output of the program  
+ <br>flutter: event1 0
+ <br>flutter: event2 0
+ <br>flutter: event1 1
+ <br>flutter: event2 2
+ <br>flutter: event1 2
+ <br>flutter: event2 4
+ <br>flutter: event1 3
+ <br>flutter: event2 6
+
 
 ## State Managment
 ### Provider
