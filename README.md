@@ -241,8 +241,15 @@
  <br>flutter: event1 3
  <br>flutter: event2 6
 
-<br>We can create our stream 
+<br>We can create our stream using for loop and yield function, the last one is similar to return but it doesn't exit the function.
 
+</div>
+<div align='center'>
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118145651-1a606980-b40e-11eb-9d4f-4593a55f43fd.png">
+<hr/>
+</div>
+   
+   
 ## State Managment
 ### Provider
 #### Advantages
