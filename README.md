@@ -211,7 +211,7 @@
      * Single Subscription Stream
 </div>
 <div align='center'>
-<img height="300px" src="https://user-images.githubusercontent.com/38363762/118142791-0109ee00-b40b-11eb-86a8-10b6ab3cdb23.png">
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118142791-0109ee00-b40b-11eb-86a8-10b6ab3cdb23.png">
 <hr/>
 </div>
 
@@ -227,7 +227,7 @@
    
 </div>
 <div align='center'>
-<img height="300px" src="https://user-images.githubusercontent.com/38363762/118143038-357daa00-b40b-11eb-9cfc-b58bfb1d462b.png">
+<img height="500px" src="https://user-images.githubusercontent.com/38363762/118143038-357daa00-b40b-11eb-9cfc-b58bfb1d462b.png">
 <hr/>
 </div>
    
@@ -241,6 +241,7 @@
  <br>flutter: event1 3
  <br>flutter: event2 6
 
+<br>We can create our stream 
 
 ## State Managment
 ### Provider
